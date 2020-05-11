@@ -2,7 +2,7 @@ import random
 import xlrd
 import os
 def storingdata(a,k,d):
-    book = xlrd.open_workbook("D:\\Work\\Hackthon Currency\\CurrencyData File.xlsx")
+    book = xlrd.open_workbook("D:\\Work\\Hackthon Currency\\CurrencyData File Cropped.xlsx")
     Q_paper =book.sheet_by_index(0)
     ans.write(str(k)+":"+str(Q_paper.cell_value(a,1))+"\n")
     Question.write(str(k)+": What is the symbol of "+str(Q_paper.cell_value(a+1,0)))
